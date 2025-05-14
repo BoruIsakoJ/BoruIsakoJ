@@ -3,7 +3,11 @@
   
 </div>
 
-<div align="center">
+<div align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://yourusername.github.io/yourrepo/dist/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://yourusername.github.io/yourrepo/dist/pacman-contribution-graph.svg">
+  <img alt="Pacman contribution graph" src="https://yourusername.github.io/yourrepo/dist/pacman-contribution-graph.svg">
+</picture>
   <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=900&height=70&duration=5000&lines=Hi+There!+👋;I'm+Boru+Isako+:);A+passionate+software+developer+from+Kenya+🇰🇪" />
   </h1>
@@ -99,9 +103,9 @@
 ---
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BoruIsakoJ/BoruIsakoJ/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BoruIsakoJ/BoruIsakoJ/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/BoruIsakoJ/BoruIsakoJ/output/pacman-contribution-graph.svg">
 </picture>
 
 
