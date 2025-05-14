@@ -1,17 +1,35 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    - cron: '0 0 * * *' # every day at midnight
+    - cron: '0 0 * * *'  # Run daily at midnight
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: yassinebridi/pacman-contribution-graph@main
+      - name: Clone repo
+        uses: actions/checkout@v3
+
+      - name: Generate Pacman contribution graph
+        uses: yassinebridi/pacman-contribution-graph@main
         with:
           user_name: BoruIsakoJ
+          theme: dark  # Optional: dark or light
+          animation: true
+
+      - name: Show build status
+        run: git status
+
+      - name: Push new files to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update Pacman contribution graph"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
