@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yassinebridi/pacman-contribution-graph@main
+        with:
+          user_name: BoruIsakoJ
