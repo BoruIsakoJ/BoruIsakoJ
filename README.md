@@ -99,9 +99,9 @@
 ---
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://yourusername.github.io/yourrepo/dist/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://yourusername.github.io/yourrepo/dist/pacman-contribution-graph.svg">
-  <img alt="Pacman contribution graph" src="https://yourusername.github.io/yourrepo/dist/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
 </picture>
 
 
@@ -110,7 +110,7 @@
 
 ## 🔧 Projects & Interests
 
-I’ve built and contributed to several projects including:
+I’ve built and contributed to several projects, including:
 - 🛒 An e-commerce platform for uniform distribution (Django + Bootstrap)
 - 🚌 A bus booking system.
 - ⚽ A football blog SPA built with React and JSON Server
