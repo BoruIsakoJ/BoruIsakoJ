@@ -1,26 +1,16 @@
-<div>
-<img align="right" src="https://profile-counter.glitch.me/BoruIsakoJ/count.svg?"  />
-  
+<div style="float:right;">
+<img src="https://komarev.com/ghpvc/?username=BoruIsakoJ&color=blue" alt="Profile Views" />
 </div>
 
-<div align="center"><picture>
-
-  <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=900&height=70&duration=5000&lines=Hi+There!+👋;I'm+Boru+Isako+:);A+passionate+software+developer+from+Kenya+🇰🇪" />
-  </h1>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=900&height=70&duration=5000&lines=Hi+There!+👋;I'm+Boru+Isako+:);A+passionate+software+developer+from+Kenya+🇰🇪" />
 </div>
 
-<div align ="center">
-  🎓 I'm a Computer Science graduate and a CPA finalist with a strong foundation in software development, databases, and system design.
+<div align="center">
+🎓 I'm a Computer Science graduate and a CPA finalist with a strong foundation in software development, databases, and system design.<br/>
+🚀 Currently honing my skills at Moringa School with a focus on full-stack web development.<br/>
+💡 Passionate about building clean, functional applications that solve real-world problems.
 </div>
-<div align ="center">
-  🚀 I'm currently honing my skills at Moringa School with a focus on full-stack web development. 
-</div>
-<div align ="center">
-  💡 I’m passionate about building clean, functional applications that solve real-world problems. 
-
-</div>
-<br/>
 
 <div align="center"> 
   <a href="mailto:isco.jaldy@gmail.com">
@@ -89,11 +79,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img width="390" src="https://github-readme-streak-stats.herokuapp.com/?user=BoruIsakoJ&count_private=true&theme=react&border_radius=10" alt="streak stats" />
-
-  <img width="390" src="https://github-readme-stats.vercel.app/api?username=BoruIsakoJ&show_icons=true&rank_icon=github&theme=react&border_radius=10" alt="Boru's GitHub Stats" />
-
-  <br/>
+  <img width="390" src="https://github-readme-streak-stats.herokuapp.com/?user=BoruIsakoJ&count_private=true&theme=react&border_radius=10" alt="streak stats" />
+  <img width="390" src="https://github-readme-stats.vercel.app/api?username=BoruIsakoJ&show_icons=true&rank_icon=github&theme=react&border_radius=10" alt="GitHub Stats" />
   <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BoruIsakoJ&layout=compact&theme=react" alt="Top Languages" />
 </div>
 
